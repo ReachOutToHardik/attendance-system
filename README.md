@@ -37,9 +37,6 @@ It features a **clean, minimal UI** and integrates with Google services for **da
 
 ---
 
-
----
-
 ## 📖 Setup  
 See [SETUP.md](./SETUP.md) for full installation and usage instructions.  
 

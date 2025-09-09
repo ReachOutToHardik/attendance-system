@@ -14,38 +14,41 @@ Follow these steps to run the project locally.
 
 ## 2️⃣ Install Backend Dependencies  
 Open a terminal in the `backend` folder and run:  
-```bash
 cd backend
 npm install
-3️⃣ Start the Backend Server
-bash
-Copy code
+
+---
+
+## 3️⃣ Start the Backend Server
+
 node server.js
 The backend runs on: http://localhost:3001
 
-4️⃣ Run the Frontend
+---
+
+## 4️⃣ Run the Frontend
 Serve the frontend/ folder using any static server (Python example shown):
 
-bash
-Copy code
 cd frontend
 python -m http.server 5500
 Now open → http://localhost:5500/index.html
 
-5️⃣ Mark and View Attendance
+---
+
+## 5️⃣ Mark and View Attendance
 Go to Mark Attendance → Select class/section/subject/date → Submit.
 
 Go to Reports → View/download attendance by class/subject/month.
 
 Data is synced live to Google Sheets (tabs named like A-Python-2024-07).
 
-📥 Importing Student List
+---
+
+## 📥 Importing Student List
 Prepare a text file (e.g., studentslist/extracted.txt).
 
 Convert it to JSON format like:
 
-json
-Copy code
 {
   "A": [ { "id": "SAMPLE001", "name": "Student Name" } ],
   "B": [ { "id": "SAMPLE002", "name": "Student Name" } ],

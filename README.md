@@ -3,10 +3,6 @@
 A complete **teacher-side attendance management system** for colleges/universities.  
 Built with **Node.js, Express, and JavaScript**, with seamless **Google Sheets + Google Cloud** integration for real-time sync and secure backups.  
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  
-![Made With](https://img.shields.io/badge/made%20with-Node.js-green)  
-![Status](https://img.shields.io/badge/status-active-success)  
-
 ---
 
 ## 📖 About This Project  

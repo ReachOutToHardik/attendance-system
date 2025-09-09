@@ -1,4 +1,4 @@
-# 🎓 College Attendance System  
+# 🎓 Attendance System  
 
 A complete **teacher-side attendance management system** for colleges/universities.  
 Built with **Node.js, Express, and JavaScript**, with seamless **Google Sheets + Google Cloud** integration for real-time sync and secure backups.  
@@ -6,7 +6,7 @@ Built with **Node.js, Express, and JavaScript**, with seamless **Google Sheets +
 ---
 
 ## 📖 About This Project  
-The **College Attendance Platform** is a web-based app designed for teachers to **efficiently mark, manage, and review student attendance**.  
+The **Attendance System** is a web-based app designed for teachers to **efficiently mark, manage, and review student attendance**.  
 It features a **clean, minimal UI** and integrates with Google services for **data storage, reporting, and backup**.  
 
 ✨ Designed for **scalability** → can be used across classes, sections, and subjects.  

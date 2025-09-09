@@ -50,8 +50,8 @@ Prepare a text file (e.g., studentslist/extracted.txt).
 Convert it to JSON format like:
 
 {
-  "A": [ { "id": "SAMPLE001", "name": "Student Name" } ],
-  "B": [ { "id": "SAMPLE002", "name": "Student Name" } ],
-  "C": [ { "id": "SAMPLE003", "name": "Student Name" } ]
+  "A": [ { "id": "SAMPLE001", "name": "Student Name" } ], <br>
+  "B": [ { "id": "SAMPLE002", "name": "Student Name" } ], <br>
+  "C": [ { "id": "SAMPLE003", "name": "Student Name" } ]  <br>
 }
 Paste into backend/data/students.json.

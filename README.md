@@ -38,3 +38,25 @@ It features a **clean, minimal UI** and integrates with Google services for **da
 ---
 
 ## 📂 Folder Structure  
+attendance-platform/
+│
+├── backend/
+│   ├── data/
+│   │   └── students.json         # Student list per section
+│   ├── credentials.json          # Google service account key (not committed)
+│   └── server.js                # Node.js/Express backend
+│
+├── frontend/
+│   ├── index.html               # Homepage
+│   ├── mark.html                # Mark attendance page
+│   ├── report.html              # Attendance report page
+│   ├── css/
+│   │   └── styles.css           # Main stylesheet
+│   ├── js/
+│   │   ├── mark.js              # Mark attendance logic
+│   │   ├── report.js            # Report dashboard logic
+│   │   └── common.js            # (Optional) shared JS
+│   └── libs/
+│       └── xlsx.full.min.js     # (Optional, if you want Excel export)
+│
+└── README.md

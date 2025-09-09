@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Credentials and sensitive files
+backend/credentials.json
+
+# Data files with personal info
+backend/data/students.json
+backend/data/attendance.json
+
+# OS and editor files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env

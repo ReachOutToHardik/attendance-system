@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | College Attendance Platform</title>
+  <link rel="stylesheet" href="css/index-test.css">
+</head>
+<body class="flex-page">
+  <div class="main-content">
+    <div class="welcome-card" style="max-width: 700px; text-align: left;">
+      <h1 class="main-title" style="text-align:center;">About This Project</h1>
+      <p class="subtitle" style="text-align:center;">A complete teacher-side attendance management system</p>
+      <hr style="margin: 1.2rem 0;">
+      <h2 style="font-size:1.2rem; color:#1976d2; margin-bottom:0.5rem;">Project Overview</h2>
+      <p>
+        <b>Attendance System</b> is a web-based application for teachers to efficiently mark, manage, and review student attendance in any school, college, or organization. It features a clean, minimal UI and integrates with Google Sheets and Google Cloud for secure data storage, reporting, and backup. The system is designed for scalability and can be used for any class, section, or subject.
+      </p>
+      <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">Features</h2>
+      <ul style="margin-left:1.2rem;">
+  <li><b>Mark Attendance:</b> Teachers can select class, section, subject, and date, then mark students present or absent with a simple interface.</li>
+  <li><b>Attendance Reports:</b> View and download detailed attendance records by class, section, subject, and month. Data is synced with Google Sheets and Google Cloud for backup and sharing.</li>
+  <li><b>Student Data Import:</b> Easily manage student lists using PDF or text files.</li>
+  <li><b>Modern UI/UX:</b> Minimal, responsive design for fast, distraction-free workflow.</li>
+  <li><b>Google Sheets & Google Cloud Integration:</b> Attendance is automatically updated in a connected Google Sheet and stored securely in Google Cloud for transparency, backup, and easy access.</li>
+  <li><b>Scalable & Customizable:</b> Works for any college, department, or subject. Easy to extend for more features.</li>
+      </ul>
+      <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">How It Works</h2>
+      <ol style="margin-left:1.2rem;">
+  <li><b>Mark Attendance:</b> Go to the Mark Attendance page, select class/section/subject/date, and mark students present. Submit to save and sync data.</li>
+  <li><b>View Report:</b> Go to the Report page, select class/section/subject/month, and view/download attendance records.</li>
+  <li><b>Data Sync:</b> All attendance is stored locally and pushed to Google Sheets and Google Cloud for backup and reporting.</li>
+      </ol>
+      <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">Tech Stack</h2>
+      <ul style="margin-left:1.2rem;">
+  <li><b>Frontend:</b> HTML, CSS, JavaScript</li>
+  <li><b>Backend:</b> Node.js (Express)</li>
+  <li><b>Database:</b> JSON files (local), Google Sheets & Google Cloud (cloud)</li>
+      </ul>
+      <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">Folder Structure</h2>
+      <ul style="margin-left:1.2rem;">
+  <li><b>frontend/</b> - UI pages and assets</li>
+  <li><b>backend/</b> - Node.js server and data logic</li>
+  <li><b>studentslist/</b> - Student data import files</li>
+      </ul>
+      <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">How to Use</h2>
+      <ol style="margin-left:1.2rem;">
+        <li>Clone or download the repository.</li>
+        <li>Install backend dependencies with <code>npm install</code> in the <b>backend</b> folder.</li>
+        <li>Start the backend server with <code>node server.js</code>.</li>
+  <li>Run <code>python -m http.server 5500</code> in the <b>frontend</b> folder to start a local web server.</li>
+  <li>Open <code>http://localhost:5500</code> in your browser to use the Attendance System frontend.</li>
+  <li><i>Why?</i> Modern browsers block some features (like AJAX/fetch requests) when opening HTML files directly. Running a local server ensures all features work correctly and allows the frontend to communicate with the backend.</li>
+        <li>Configure Google Sheets API credentials in <code>backend/credentials.json</code>.</li>
+      </ol>
+  <h2 style="font-size:1.1rem; color:#1976d2; margin-bottom:0.5rem;">Author</h2>
+  <p>Created by <b>Hardik Joshi</b> &mdash; September 2025</p>
+      <hr style="margin: 1.2rem 0;">
+      <div style="text-align:center;">
+        <a href="index.html" class="action-card" style="display:inline-block; min-width:120px; margin-top:1rem;">Back to Home</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

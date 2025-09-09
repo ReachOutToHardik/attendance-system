@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Attendance</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="flex-page">
+  <div class="container mark-container main-content">
+    <header class="header">
+      <h1>Mark Attendance</h1>
+    </header>
+    <div class="mark-content-wrapper">
+      <form id="attendance-form" class="mark-form">
+        <div class="form-row">
+          <label for="section">Section:</label>
+          <select id="section" name="section" required>
+            <option value="" disabled selected>Select Section</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="SAD">SAD</option>
+          </select>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="students-list-card">
+          <div class="students-list-header">Select Students Present</div>
+          <div id="students-list" class="students-list"></div>
+        </div>
+        <button type="submit" class="submit-btn">Submit Attendance</button>
+      </form>
+    </div>
+  </div>
+  <div class="bottom-bar">
+    <a href="index.html" class="back-link">Back to Home</a>
+    <footer class="footer-credit">Created by Hardik Joshi</footer>
+  </div>
+  <script src="js/mark.js"></script>
+</body>
+</html>

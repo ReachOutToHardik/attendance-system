@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f7fa;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.welcome-card {
+  background: #fff;
+  padding: 2.5rem 3.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-size: 2rem;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.08rem;
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+
+.quick-guide {
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.1rem 0 2rem 0;
+  text-align: left;
+  box-shadow: 0 1px 6px rgba(25, 118, 210, 0.04);
+}
+.guide-title {
+  font-weight: 600;
+  color: #1976d2;
+  font-size: 1.01rem;
+}
+.guide-list {
+  margin: 0.5rem 0 0 1.1rem;
+  padding: 0;
+  color: #555;
+  font-size: 0.97rem;
+}
+.guide-list li {
+  margin-bottom: 0.35rem;
+}
+
+.action-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  min-width: 140px;
+  padding: 0 1.5rem;
+  border-radius: 1.2rem;
+  background: #f5f6fa;
+  color: #222;
+  text-decoration: none;
+  border: 1px solid #e0e3ea;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.05rem;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.07);
+  transition: background 0.18s, box-shadow 0.18s, transform 0.18s;
+  outline: none;
+  letter-spacing: 0.01em;
+  position: relative;
+  overflow: hidden;
+}
+/* Smooth fill-up hover animation for minimal buttons */
+.action-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e9ebf3;
+  border-radius: inherit;
+  z-index: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(.4,0,.2,1);
+}
+
+.action-card:hover::before {
+  transform: scaleX(1);
+}
+
+.action-label {
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s cubic-bezier(.4,0,.2,1);
+}
+
+.action-card:hover .action-label {
+  color: #222;
+}
+}
+  transform: scaleX(1);
+}
+  position: relative;
+  z-index: 1;
+}
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(82.3deg, rgba(150, 93, 233, 1) 10.8%, rgba(99, 88, 238, 1) 94.3%);
+  transition: all 0.475s;
+  z-index: 0;
+}
+}
+}
+.action-card:hover {
+  background: #e9ebf3;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.10);
+  transform: translateY(-2px) scale(1.03);
+}
+.action-icon {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+.action-label {
+  font-size: 1.05rem;
+}
+
+.footer-credit {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  padding: 1.2rem 0 0.5rem 0;
+  background: none;
+}
+
+@media (max-width: 600px) {
+  .welcome-card {
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    max-width: 98vw;
+  }
+  .action-cards {
+    gap: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .action-card {
+    width: 90vw;
+    height: 70px;
+    font-size: 0.98rem;
+  }
+  .action-icon {
+    font-size: 1.3rem;
+  }
+}
+  .action-label {
+    position: relative;
+    z-index: 1;
+    font-size: 1.08rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }

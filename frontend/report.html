@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Report</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="flex-page">
+  <div class="container fullscreen main-content">
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 1rem;">
+      <a href="index.html" class="back-link" style="padding: 0.5rem 1.2rem; border-radius: 1rem; background: #f5f6fa; color: #1976d2; text-decoration: none; font-weight: 500; border: 1px solid #e0e3ea;">Back to Home</a>
+    </div>
+    <header class="header">
+      <h1>Attendance Dashboard</h1>
+    </header>
+    <form id="report-form" class="flex-form wide-form">
+      <label for="section">Section:</label>
+      <select id="section" name="section">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="SAD">SAD</option>
+      </select>
+      <label for="month">Month:</label>
+      <input type="month" id="month" name="month" required>
+      <button type="submit">View Report</button>
+        <a href="index.html" class="back-link report-back-btn" style="padding: 0.5rem 1.2rem; border-radius: 1rem; background: #f5f6fa; color: #1976d2; text-decoration: none; font-weight: 500; border: 1px solid #e0e3ea;">Back to Home</a>
+      </form>
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 1rem;"></div>
+    </form>
+    <div id="report-table" class="attendance-grid fullscreen-table"></div>
+  </div>
+  <div class="bottom-bar">
+    <footer class="footer-credit">Created by Hardik Joshi</footer>
+  </div>
+  <script src="libs/xlsx.full.min.js"></script>
+  <script src="js/report.js"></script>
+</body>
+</html>

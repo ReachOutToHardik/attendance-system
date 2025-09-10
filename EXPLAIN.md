@@ -1,6 +1,6 @@
 # What Does This Attendance Platform Do?
 
-This web-based platform helps BCA 3rd semester teachers easily mark and view student attendance for every subject, section, and day. It is designed to be simple, fast, and usable on any device.
+This web-based platform helpsteachers easily mark and view student attendance for every subject, section, and day. It is designed to be simple, fast, and usable on any device.
 
 ---
 
